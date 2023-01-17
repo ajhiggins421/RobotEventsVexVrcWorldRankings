@@ -1,7 +1,9 @@
 VEX VRC Competition World Rankings
 ==================================
 
-This website contains world rankings for teams participating int 2022-2023 VEX VRC Robotics Spin-Up competition.
+This website contains world rankings for teams participating int 2022-2023 VEX VRC Robotics Spin-Up competition. 
+
+A live demo is available at [vexvrcworldrankings.azurewebsites.net](https://vexvrcworldrankings.azurewebsites.net/).
 
 Teams are ranked based on their performance in tournaments throughout the year using a hybrid variation of ELO rating algorithm.
 
