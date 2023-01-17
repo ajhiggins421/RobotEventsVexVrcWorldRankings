@@ -1,0 +1,226 @@
+﻿@page "/event/{sku}"
+@using EloEngine.Vex.Api;
+<style type="text/css">
+    :root {
+        --lightblue: #b6d6fb /*rgba(0,0,255, .7)*/;
+        --darkblue: #77b3f8;
+        --lightred: #fbb6b6 /* rgba(255,0,0, .6)*/;
+        --darkred: #f87777;
+        --red: var(--lightred);
+        --blue: var(--lightblue);
+        --tie: lightgoldenrodyellow;
+        --borderpix: 6px;
+    }
+
+    .team-table tr.combinedelo {
+        text-align: center;
+        font-style: italic;
+        font-weight: bold;
+        font-size: small;
+    }
+
+    .team-table tr.elorow td:first-child {
+        margin-right: 5px;
+        border-right: 1px solid #cccccc;
+        padding-right: 5px;
+    }
+
+    .team-table tr.elorow td:last-child {
+        padding-left: 5px;
+    }
+
+    .red {
+        background: var(--red);
+        /*color: white !important;*/
+    }
+
+    .blue {
+        background: var(--blue);
+        /*color: white !important;*/
+    }
+
+    .border-blue {
+        border: var(--borderpix) solid var(--darkblue);
+    }
+
+    .border-red {
+        border: var(--borderpix) solid var(--darkred);
+    }
+
+    .border-tie {
+        border: var(--borderpix) solid var(--tie);
+    }
+
+    .result {
+        padding: 0px !important;
+        margin: 0px !important;
+        height: 100%;
+    }
+
+        .result div {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 71px;
+        }
+
+    a {
+        text-decoration: underline;
+    }
+</style>
+<PageTitle>@Event.Name</PageTitle>
+<MudText Typo="Typo.h4">@Event.Name</MudText>
+
+<MudTable Items="@Teams" Dense="@dense" Hover="@hover" Bordered="@bordered" Striped="@striped"
+          Filter="new Func<RankedTeam, bool>(FilterTeamFunc1)" @bind-SelectedItem="selectedTeam"
+          RowsPerPage="1000">
+    <ToolBarContent>
+        <MudText Typo="Typo.h5">Tournament Team Rankings</MudText>
+        <MudSpacer />
+        <MudTextField @bind-Value="searchStringTeams1" Placeholder="Search" Adornment="Adornment.Start"
+                      AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
+    </ToolBarContent>
+    <HeaderContent>
+        <MudTh>Event Rank</MudTh>
+        <MudTh>World Rank</MudTh>
+        <MudTh>Elo</MudTh>
+        <MudTh>Number</MudTh>
+        <MudTh>Name</MudTh>
+
+        <MudTh>Org</MudTh>
+        <MudTh>Location</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Rank">@context.Rank</MudTd>
+        <MudTd DataLabel="World Rank">@context.WorldRank</MudTd>
+        <MudTd DataLabel="Elo">@context.Team.Rating</MudTd>
+        <MudTd DataLabel="Number"><a target="_blank " href="https://www.robotevents.com/teams/VRC/@context.Team.Number">@context.Team.Number </a>   </MudTd>
+        <MudTd DataLabel="Name">@context.Team.Team_name</MudTd>
+
+        <MudTd DataLabel="Organization">@context.Team.Organization</MudTd>
+        <MudTd DataLabel="Location">@context.Team.Location.City, @context.Team.Location.Region @context.Team.Location.Country </MudTd>
+    </RowTemplate>
+    <PagerContent>
+        <MudTablePager PageSizeOptions="pageSizeOptions" />
+    </PagerContent>
+</MudTable>
+
+<MudTable Items="@Elements" Dense="@dense" Hover="@hover" Bordered="@bordered" Striped="@striped"
+          Filter="new Func<MatchObj, bool>(FilterFunc1)" @bind-SelectedItem="selectedItem1"
+          RowsPerPage="1000">
+    <ToolBarContent>
+        <MudText Typo="Typo.h5">Matches</MudText>
+        <MudSpacer />
+        <MudTextField @bind-Value="searchString1" Placeholder="Search" Adornment="Adornment.Start"
+                      AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
+    </ToolBarContent>
+    <HeaderContent>
+        <MudTh>Match</MudTh>
+        <MudTh>Round</MudTh>
+        <MudTh>Date</MudTh>
+        <MudTh>Blue Score</MudTh>
+        <MudTh>Red Score</MudTh>
+
+        <MudTh>Blue</MudTh>
+        <MudTh>Red</MudTh>
+        <MudTh>Blue Win Prob</MudTh>
+        <MudTh>Red Win Prob</MudTh>
+        <MudTh>Result</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Match">
+            @context.Matchnum
+
+        </MudTd>
+
+        <MudTd DataLabel="Round">@context.Name  </MudTd>
+        <MudTd DataLabel="Date">@context.Started.DateTime.ToShortDateString()</MudTd>
+        <MudTd DataLabel="Blue Score" Class="blue">@context.Alliances.First().Score</MudTd>
+        <MudTd DataLabel="Red Score" Class="red">@context.Alliances.Last().Score</MudTd>
+
+        <MudTd DataLabel="Blue" Style="padding:6px 16px" Class="blue">
+            <table class="team-table">
+                <tr class="combinedelo">
+                    <td colspan="2">@EloBlue(@context.Alliances)</td>
+                </tr>
+                <tr class="elorow">
+                    <td>
+                        <a target="_blank " href="https://www.robotevents.com/teams/VRC/@context.Alliances.First().Teams.First().Team.Name">
+                            @context.Alliances.First().Teams.First().Team.Name
+                        </a>
+                    </td>
+                    <td>
+                        @GetRanking(@context.Alliances.First().Teams.First().Team.Id)
+                    </td>
+                </tr>
+                <tr class="elorow">
+                    <td>
+                        <a target="_blank " href="https://www.robotevents.com/teams/VRC/@context.Alliances.First().Teams.Last().Team.Name">
+                            @context.Alliances.First().Teams.Last().Team.Name
+                        </a>
+                    </td>
+                    <td>
+                        @GetRanking(@context.Alliances.First().Teams.Last().Team.Id)
+                    </td>
+                </tr>
+            </table>
+
+
+        </MudTd>
+        <MudTd DataLabel="Red" Style="padding:6px 16px" Class="red">
+            <table class="team-table">
+                <tr class="combinedelo">
+                    <td colspan="2">@EloRed(@context.Alliances)</td>
+                </tr>
+                <tr class="elorow">
+                    <td>
+                        <a target="_blank " href="https://www.robotevents.com/teams/VRC/@context.Alliances.Last().Teams.First().Team.Name">
+                            @context.Alliances.Last().Teams.First().Team.Name
+                        </a>
+                    </td>
+                    <td>
+                        @GetRanking(@context.Alliances.Last().Teams.First().Team.Id)
+                    </td>
+                </tr>
+                <tr class="elorow">
+                    <td>
+                        <a target="_blank " href="https://www.robotevents.com/teams/VRC/@context.Alliances.Last().Teams.Last().Team.Name">
+                            @context.Alliances.Last().Teams.Last().Team.Name
+                        </a>
+                    </td>
+                    <td>
+                        @GetRanking(@context.Alliances.Last().Teams.Last().Team.Id)
+                    </td>
+                </tr>
+            </table>
+
+        </MudTd>
+        <MudTd Class="@(ExpectationToWinBlue(@context.Alliances) >.5? "blue" :"")">
+            @ExpectationToWinBlue(@context.Alliances).ToString("P")
+        </MudTd>
+        <MudTd Class="@(ExpectationToWinRed(@context.Alliances) >.5? "red" :"")">
+            @ExpectationToWinRed(@context.Alliances).ToString("P")
+        </MudTd>
+        <MudTd DataLabel="Result" Class="result">
+            <div class="@WinLabelClass(context.Alliances)">
+                @WinLabel(context.Alliances)
+            </div>
+
+        </MudTd>
+    </RowTemplate>
+    <PagerContent>
+        <MudTablePager PageSizeOptions="pageSizeOptions" />
+    </PagerContent>
+</MudTable>
+
+<div class="d-flex flex-wrap mt-4 visually-hidden">
+    <MudSwitch @bind-Checked="@hover" Color="Color.Primary">Hover</MudSwitch>
+    <MudSwitch @bind-Checked="@dense" Color="Color.Secondary">Dense</MudSwitch>
+    <MudSwitch @bind-Checked="@striped" Color="Color.Tertiary">Striped</MudSwitch>
+    <MudSwitch @bind-Checked="@bordered" Color="Color.Warning">Bordered</MudSwitch>
+    <MudSpacer />
+    <div style="min-width:200px;">
+        <MudText Inline="true" Class="align-self-center">Selected1: @selectedItem1?.Name</MudText>
+    </div>
+</div>

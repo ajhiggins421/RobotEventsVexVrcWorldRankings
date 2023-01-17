@@ -1,0 +1,138 @@
+﻿@page "/rankings"
+@using EloEngine.Vex.Api;
+<style type="text/css">
+    :root {
+        --lightblue: #b6d6fb /*rgba(0,0,255, .7)*/;
+        --darkblue: #77b3f8;
+        --lightred: #fbb6b6 /* rgba(255,0,0, .6)*/;
+        --darkred: #f87777;
+        --red: var(--lightred);
+        --blue: var(--lightblue);
+        --tie: lightgoldenrodyellow;
+        --borderpix: 6px;
+    }
+
+    .team-table tr.combinedelo {
+        text-align: center;
+        font-style: italic;
+        font-weight: bold;
+        font-size: small;
+    }
+
+    .team-table tr.elorow td:first-child {
+        margin-right: 5px;
+        border-right: 1px solid #cccccc;
+        padding-right: 5px;
+    }
+
+    .team-table tr.elorow td:last-child {
+        padding-left: 5px;
+    }
+
+    .red {
+        background: var(--red);
+        /*color: white !important;*/
+    }
+
+    .blue {
+        background: var(--blue);
+        /*color: white !important;*/
+    }
+
+    .border-blue {
+        border: var(--borderpix) solid var(--darkblue);
+    }
+
+    .border-red {
+        border: var(--borderpix) solid var(--darkred);
+    }
+
+    .border-tie {
+        border: var(--borderpix) solid var(--tie);
+    }
+
+    .result {
+        padding: 0px !important;
+        margin: 0px !important;
+        height: 100%;
+    }
+
+        .result div {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 71px;
+        }
+    .record 
+    {
+        white-space:nowrap;
+    }
+    a {
+        text-decoration:underline;
+    }
+</style>
+<PageTitle>World VEX Competition Team Rankings</PageTitle>
+<MudText Typo="Typo.h4">World VEX Competition Team Rankings - @Teams.Count.ToString("N0") Teams</MudText>
+
+<MudTable Items="@Teams" Dense="@dense" Hover="@hover" Bordered="@bordered" Striped="@striped"
+          Filter="new Func<Team, bool>(FilterTeamFunc1)" @bind-SelectedItem="selectedTeam"
+          RowsPerPage="1000">
+    <ToolBarContent>
+        <MudText Typo="Typo.h5">World Rankings</MudText>
+        <MudSpacer />
+        <MudTextField @bind-Value="searchStringTeams1" Placeholder="Search" Adornment="Adornment.Start"
+                      AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
+    </ToolBarContent>
+    <HeaderContent>
+
+        <MudTh>World Rank</MudTh>
+        <MudTh>Elo</MudTh>
+        <MudTh>Number</MudTh>
+        <MudTh>Name</MudTh>
+        <MudTh>Record</MudTh>
+        <MudTh>Elim Record</MudTh>
+        <MudTh>Qualifier Record</MudTh>
+
+
+        <MudTh>Org</MudTh>
+        <MudTh>Location</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+
+        <MudTd DataLabel="World Rank" Class="worl-drank">@context.WorldRank</MudTd>
+        <MudTd DataLabel="Elo" Class="elo">@context.Rating</MudTd>
+        <MudTd DataLabel="Number" Class="team-number"><a target="_blank " href="https://www.robotevents.com/teams/VRC/@context.Number">@context.Number </a> </MudTd>
+        <MudTd DataLabel="Name" Class="team-name">@context.Team_name</MudTd>
+        <MudTd DataLabel="Record" Class="record overall-record">
+            @context.TeamRecord.W - @context.TeamRecord.L - @context.TeamRecord.T
+        </MudTd>
+        <MudTd DataLabel="EliminationRecord" Class="record elimination-record">
+            @context.TeamRecord.EliminationRecord.W - @context.TeamRecord.EliminationRecord.L - @context.TeamRecord.EliminationRecord.T
+        </MudTd>
+        <MudTd DataLabel="QualifierRecord" Class="record qualifier-record">
+            @context.TeamRecord.QualifierRecord.W - @context.TeamRecord.QualifierRecord.L - @context.TeamRecord.QualifierRecord.T
+        </MudTd>
+
+
+
+
+        <MudTd DataLabel="Organization" Class="organization">@context.Organization</MudTd>
+        <MudTd DataLabel="Location" Class="location">@context.Location.City, @context.Location.Region @context.Location.Country </MudTd>
+    </RowTemplate>
+    <PagerContent>
+        <MudTablePager PageSizeOptions="pageSizeOptions" />
+    </PagerContent>
+</MudTable>
+
+
+<div class="d-flex flex-wrap mt-4 visually-hidden">
+    <MudSwitch @bind-Checked="@hover" Color="Color.Primary">Hover</MudSwitch>
+    <MudSwitch @bind-Checked="@dense" Color="Color.Secondary">Dense</MudSwitch>
+    <MudSwitch @bind-Checked="@striped" Color="Color.Tertiary">Striped</MudSwitch>
+    <MudSwitch @bind-Checked="@bordered" Color="Color.Warning">Bordered</MudSwitch>
+    <MudSpacer />
+    <div style="min-width:200px;">
+        <MudText Inline="true" Class="align-self-center">Selected1: @selectedTeam?.Number</MudText>
+    </div>
+</div>

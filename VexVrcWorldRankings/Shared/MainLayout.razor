@@ -1,0 +1,59 @@
+﻿@inherits LayoutComponentBase
+
+<PageTitle>Vex Rankings</PageTitle>
+<MudThemeProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+<style type="text/css">
+    .sidebar, .navbar-dark {
+        background: #1E2025;
+        background-image:none !important;
+    }
+
+    .navbar-dark {
+        border: 1px solid #32353D;
+    }
+
+    .mud-appbar {
+        background: #0A0B0D;
+        
+    }
+
+    .content a {
+        text-decoration:underline;
+    }
+</style>
+<MudLayout>
+    <MudAppBar>
+        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" />
+    </MudAppBar>
+    <MudDrawer @bind-Open="@_drawerOpen">
+        <MyNavMenu />
+    </MudDrawer>
+    <MudMainContent>
+        <div class="page">
+            <div class="sidebar">
+                <NavMenu />
+            </div>
+
+            <main>
+                <div class="top-row px-4">
+                    <a href="https://www.robotevents.com/teams/VRC/2616K" target="_blank">About</a>
+                </div>
+
+                <article class="content px-4">
+                    @Body
+                </article>
+            </main>
+        </div>
+    </MudMainContent>
+</MudLayout>
+
+@code {
+    bool _drawerOpen = false;
+
+    void DrawerToggle()
+    {
+        _drawerOpen = false;//!_drawerOpen;
+    }
+}

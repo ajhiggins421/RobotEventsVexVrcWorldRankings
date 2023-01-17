@@ -1,0 +1,273 @@
+﻿Date	Visitor	VisitorAbr	VisitorScore	Home	HomeAbr	HomeScore
+09/08/2022	Buffalo Bills	BUF	31	Los Angeles Rams	LA	10
+09/11/2022	Indianapolis Colts	IND	20	Houston Texans	HOU	20
+09/11/2022	San Francisco 49ers	SF	10	Chicago Bears	CHI	19
+09/11/2022	Pittsburgh Steelers	PIT	23	Cincinnati Bengals	CIN	20
+09/11/2022	Philadelphia Eagles	PHI	38	Detroit Lions	DET	35
+09/11/2022	Baltimore Ravens	BAL	24	New York Jets	NYJ	9
+09/11/2022	New Orleans Saints	NO	27	Atlanta Falcons	ATL	26
+09/11/2022	New England Patriots	NE	7	Miami Dolphins	MIA	20
+09/11/2022	Jacksonville Jaguars	JAX	22	Washington Commanders	WAS	28
+09/11/2022	Cleveland Browns	CLE	26	Carolina Panthers	CAR	24
+09/11/2022	Kansas City Chiefs	KC	44	Arizona Cardinals	ARI	21
+09/11/2022	Las Vegas Raiders	LV	19	Los Angeles Chargers	LAC	24
+09/11/2022	New York Giants	NYG	21	Tennessee Titans	TEN	20
+09/11/2022	Green Bay Packers	GB	7	Minnesota Vikings	MIN	23
+09/11/2022	Tampa Bay Buccaneers	TB	19	Dallas Cowboys	DAL	3
+09/12/2022	Denver Broncos	DEN	16	Seattle Seahawks	SEA	17
+09/15/2022	Los Angeles Chargers	LAC	24	Kansas City Chiefs	KC	27
+09/18/2022	Tampa Bay Buccaneers	TB	20	New Orleans Saints	NO	10
+09/18/2022	Carolina Panthers	CAR	16	New York Giants	NYG	19
+09/18/2022	New England Patriots	NE	17	Pittsburgh Steelers	PIT	14
+09/18/2022	Indianapolis Colts	IND	0	Jacksonville Jaguars	JAX	24
+09/18/2022	New York Jets	NYJ	31	Cleveland Browns	CLE	30
+09/18/2022	Washington Commanders	WAS	27	Detroit Lions	DET	36
+09/18/2022	Miami Dolphins	MIA	42	Baltimore Ravens	BAL	38
+09/18/2022	Atlanta Falcons	ATL	27	Los Angeles Rams	LA	31
+09/18/2022	Seattle Seahawks	SEA	7	San Francisco 49ers	SF	27
+09/18/2022	Arizona Cardinals	ARI	29	Las Vegas Raiders	LV	23
+09/18/2022	Houston Texans	HOU	9	Denver Broncos	DEN	16
+09/18/2022	Cincinnati Bengals	CIN	17	Dallas Cowboys	DAL	20
+09/18/2022	Chicago Bears	CHI	10	Green Bay Packers	GB	27
+09/19/2022	Tennessee Titans	TEN	7	Buffalo Bills	BUF	41
+09/19/2022	Minnesota Vikings	MIN	7	Philadelphia Eagles	PHI	24
+09/22/2022	Pittsburgh Steelers	PIT	17	Cleveland Browns	CLE	29
+09/25/2022	Houston Texans	HOU	20	Chicago Bears	CHI	23
+09/25/2022	Las Vegas Raiders	LV	22	Tennessee Titans	TEN	24
+09/25/2022	Detroit Lions	DET	24	Minnesota Vikings	MIN	28
+09/25/2022	Baltimore Ravens	BAL	37	New England Patriots	NE	26
+09/25/2022	Cincinnati Bengals	CIN	27	New York Jets	NYJ	12
+09/25/2022	Kansas City Chiefs	KC	17	Indianapolis Colts	IND	20
+09/25/2022	Buffalo Bills	BUF	19	Miami Dolphins	MIA	21
+09/25/2022	Philadelphia Eagles	PHI	24	Washington Commanders	WAS	8
+09/25/2022	New Orleans Saints	NO	14	Carolina Panthers	CAR	22
+09/25/2022	Jacksonville Jaguars	JAX	38	Los Angeles Chargers	LAC	10
+09/25/2022	Atlanta Falcons	ATL	27	Seattle Seahawks	SEA	23
+09/25/2022	Los Angeles Rams	LA	20	Arizona Cardinals	ARI	12
+09/25/2022	Green Bay Packers	GB	14	Tampa Bay Buccaneers	TB	12
+09/25/2022	San Francisco 49ers	SF	10	Denver Broncos	DEN	11
+09/26/2022	Dallas Cowboys	DAL	23	New York Giants	NYG	16
+09/29/2022	Miami Dolphins	MIA	15	Cincinnati Bengals	CIN	27
+10/02/2022	Minnesota Vikings	MIN	28	New Orleans Saints	NO	25
+10/02/2022	Washington Commanders	WAS	10	Dallas Cowboys	DAL	25
+10/02/2022	Los Angeles Chargers	LAC	34	Houston Texans	HOU	24
+10/02/2022	Tennessee Titans	TEN	24	Indianapolis Colts	IND	17
+10/02/2022	Cleveland Browns	CLE	20	Atlanta Falcons	ATL	23
+10/02/2022	Seattle Seahawks	SEA	48	Detroit Lions	DET	45
+10/02/2022	Buffalo Bills	BUF	23	Baltimore Ravens	BAL	20
+10/02/2022	Chicago Bears	CHI	12	New York Giants	NYG	20
+10/02/2022	Jacksonville Jaguars	JAX	21	Philadelphia Eagles	PHI	29
+10/02/2022	New York Jets	NYJ	24	Pittsburgh Steelers	PIT	20
+10/02/2022	Arizona Cardinals	ARI	26	Carolina Panthers	CAR	16
+10/02/2022	Denver Broncos	DEN	23	Las Vegas Raiders	LV	32
+10/02/2022	New England Patriots	NE	24	Green Bay Packers	GB	27
+10/02/2022	Kansas City Chiefs	KC	41	Tampa Bay Buccaneers	TB	31
+10/03/2022	Los Angeles Rams	LA	9	San Francisco 49ers	SF	24
+10/06/2022	Indianapolis Colts	IND	12	Denver Broncos	DEN	9
+10/09/2022	New York Giants	NYG	27	Green Bay Packers	GB	22
+10/09/2022	Chicago Bears	CHI	22	Minnesota Vikings	MIN	29
+10/09/2022	Seattle Seahawks	SEA	32	New Orleans Saints	NO	39
+10/09/2022	Miami Dolphins	MIA	17	New York Jets	NYJ	40
+10/09/2022	Detroit Lions	DET	0	New England Patriots	NE	29
+10/09/2022	Pittsburgh Steelers	PIT	3	Buffalo Bills	BUF	38
+10/09/2022	Atlanta Falcons	ATL	15	Tampa Bay Buccaneers	TB	21
+10/09/2022	Tennessee Titans	TEN	21	Washington Commanders	WAS	17
+10/09/2022	Houston Texans	HOU	13	Jacksonville Jaguars	JAX	6
+10/09/2022	Los Angeles Chargers	LAC	30	Cleveland Browns	CLE	28
+10/09/2022	San Francisco 49ers	SF	37	Carolina Panthers	CAR	15
+10/09/2022	Dallas Cowboys	DAL	22	Los Angeles Rams	LA	10
+10/09/2022	Philadelphia Eagles	PHI	20	Arizona Cardinals	ARI	17
+10/09/2022	Cincinnati Bengals	CIN	17	Baltimore Ravens	BAL	19
+10/10/2022	Las Vegas Raiders	LV	29	Kansas City Chiefs	KC	30
+10/13/2022	Washington Commanders	WAS	12	Chicago Bears	CHI	7
+10/16/2022	New York Jets	NYJ	27	Green Bay Packers	GB	10
+10/16/2022	Cincinnati Bengals	CIN	30	New Orleans Saints	NO	26
+10/16/2022	Baltimore Ravens	BAL	20	New York Giants	NYG	24
+10/16/2022	San Francisco 49ers	SF	14	Atlanta Falcons	ATL	28
+10/16/2022	Jacksonville Jaguars	JAX	27	Indianapolis Colts	IND	34
+10/16/2022	Tampa Bay Buccaneers	TB	18	Pittsburgh Steelers	PIT	20
+10/16/2022	Minnesota Vikings	MIN	24	Miami Dolphins	MIA	16
+10/16/2022	New England Patriots	NE	38	Cleveland Browns	CLE	15
+10/16/2022	Arizona Cardinals	ARI	9	Seattle Seahawks	SEA	19
+10/16/2022	Carolina Panthers	CAR	10	Los Angeles Rams	LA	24
+10/16/2022	Buffalo Bills	BUF	24	Kansas City Chiefs	KC	20
+10/16/2022	Dallas Cowboys	DAL	17	Philadelphia Eagles	PHI	26
+10/17/2022	Denver Broncos	DEN	16	Los Angeles Chargers	LAC	19
+10/20/2022	New Orleans Saints	NO	34	Arizona Cardinals	ARI	42
+10/23/2022	Detroit Lions	DET	6	Dallas Cowboys	DAL	24
+10/23/2022	Indianapolis Colts	IND	10	Tennessee Titans	TEN	19
+10/23/2022	Atlanta Falcons	ATL	17	Cincinnati Bengals	CIN	35
+10/23/2022	Cleveland Browns	CLE	20	Baltimore Ravens	BAL	23
+10/23/2022	Green Bay Packers	GB	21	Washington Commanders	WAS	23
+10/23/2022	Tampa Bay Buccaneers	TB	3	Carolina Panthers	CAR	21
+10/23/2022	New York Giants	NYG	23	Jacksonville Jaguars	JAX	17
+10/23/2022	Houston Texans	HOU	20	Las Vegas Raiders	LV	38
+10/23/2022	New York Jets	NYJ	16	Denver Broncos	DEN	9
+10/23/2022	Seattle Seahawks	SEA	37	Los Angeles Chargers	LAC	23
+10/23/2022	Kansas City Chiefs	KC	44	San Francisco 49ers	SF	23
+10/23/2022	Pittsburgh Steelers	PIT	10	Miami Dolphins	MIA	16
+10/24/2022	Chicago Bears	CHI	33	New England Patriots	NE	14
+10/27/2022	Baltimore Ravens	BAL	27	Tampa Bay Buccaneers	TB	22
+10/30/2022	Denver Broncos	DEN	21	Jacksonville Jaguars	JAX	17
+10/30/2022	Chicago Bears	CHI	29	Dallas Cowboys	DAL	49
+10/30/2022	Arizona Cardinals	ARI	26	Minnesota Vikings	MIN	34
+10/30/2022	Las Vegas Raiders	LV	0	New Orleans Saints	NO	24
+10/30/2022	New England Patriots	NE	22	New York Jets	NYJ	17
+10/30/2022	Pittsburgh Steelers	PIT	13	Philadelphia Eagles	PHI	35
+10/30/2022	Miami Dolphins	MIA	31	Detroit Lions	DET	27
+10/30/2022	Carolina Panthers	CAR	34	Atlanta Falcons	ATL	37
+10/30/2022	Tennessee Titans	TEN	17	Houston Texans	HOU	10
+10/30/2022	New York Giants	NYG	13	Seattle Seahawks	SEA	27
+10/30/2022	San Francisco 49ers	SF	31	Los Angeles Rams	LA	14
+10/30/2022	Washington Commanders	WAS	17	Indianapolis Colts	IND	16
+10/30/2022	Green Bay Packers	GB	17	Buffalo Bills	BUF	27
+10/31/2022	Cincinnati Bengals	CIN	13	Cleveland Browns	CLE	32
+11/03/2022	Philadelphia Eagles	PHI	29	Houston Texans	HOU	17
+11/06/2022	Miami Dolphins	MIA	35	Chicago Bears	CHI	32
+11/06/2022	Carolina Panthers	CAR	21	Cincinnati Bengals	CIN	42
+11/06/2022	Green Bay Packers	GB	9	Detroit Lions	DET	15
+11/06/2022	Indianapolis Colts	IND	3	New England Patriots	NE	26
+11/06/2022	Buffalo Bills	BUF	17	New York Jets	NYJ	20
+11/06/2022	Los Angeles Chargers	LAC	20	Atlanta Falcons	ATL	17
+11/06/2022	Minnesota Vikings	MIN	20	Washington Commanders	WAS	17
+11/06/2022	Las Vegas Raiders	LV	20	Jacksonville Jaguars	JAX	27
+11/06/2022	Seattle Seahawks	SEA	31	Arizona Cardinals	ARI	21
+11/06/2022	Los Angeles Rams	LA	13	Tampa Bay Buccaneers	TB	16
+11/06/2022	Tennessee Titans	TEN	17	Kansas City Chiefs	KC	20
+11/07/2022	Baltimore Ravens	BAL	27	New Orleans Saints	NO	13
+11/10/2022	Atlanta Falcons	ATL	15	Carolina Panthers	CAR	25
+11/13/2022	Seattle Seahawks	SEA	16	Tampa Bay Buccaneers	TB	21
+11/13/2022	Denver Broncos	DEN	10	Tennessee Titans	TEN	17
+11/13/2022	Jacksonville Jaguars	JAX	17	Kansas City Chiefs	KC	27
+11/13/2022	Detroit Lions	DET	31	Chicago Bears	CHI	30
+11/13/2022	Cleveland Browns	CLE	17	Miami Dolphins	MIA	39
+11/13/2022	Houston Texans	HOU	16	New York Giants	NYG	24
+11/13/2022	New Orleans Saints	NO	10	Pittsburgh Steelers	PIT	20
+11/13/2022	Minnesota Vikings	MIN	33	Buffalo Bills	BUF	30
+11/13/2022	Indianapolis Colts	IND	25	Las Vegas Raiders	LV	20
+11/13/2022	Arizona Cardinals	ARI	27	Los Angeles Rams	LA	17
+11/13/2022	Dallas Cowboys	DAL	28	Green Bay Packers	GB	31
+11/13/2022	Los Angeles Chargers	LAC	16	San Francisco 49ers	SF	22
+11/14/2022	Washington Commanders	WAS	32	Philadelphia Eagles	PHI	21
+11/17/2022	Tennessee Titans	TEN	27	Green Bay Packers	GB	17
+11/20/2022	Los Angeles Rams	LA	20	New Orleans Saints	NO	27
+11/20/2022	Washington Commanders	WAS	23	Houston Texans	HOU	10
+11/20/2022	New York Jets	NYJ	3	New England Patriots	NE	10
+11/20/2022	Detroit Lions	DET	31	New York Giants	NYG	18
+11/20/2022	Philadelphia Eagles	PHI	17	Indianapolis Colts	IND	16
+11/20/2022	Chicago Bears	CHI	24	Atlanta Falcons	ATL	27
+11/20/2022	Cleveland Browns	CLE	23	Buffalo Bills	BUF	31
+11/20/2022	Carolina Panthers	CAR	3	Baltimore Ravens	BAL	13
+11/20/2022	Las Vegas Raiders	LV	22	Denver Broncos	DEN	16
+11/20/2022	Dallas Cowboys	DAL	40	Minnesota Vikings	MIN	3
+11/20/2022	Cincinnati Bengals	CIN	37	Pittsburgh Steelers	PIT	30
+11/20/2022	Kansas City Chiefs	KC	30	Los Angeles Chargers	LAC	27
+11/21/2022	San Francisco 49ers	SF	38	Arizona Cardinals	ARI	10
+11/24/2022	Buffalo Bills	BUF	28	Detroit Lions	DET	25
+11/24/2022	New York Giants	NYG	20	Dallas Cowboys	DAL	28
+11/24/2022	New England Patriots	NE	26	Minnesota Vikings	MIN	33
+11/27/2022	Cincinnati Bengals	CIN	20	Tennessee Titans	TEN	16
+11/27/2022	Chicago Bears	CHI	10	New York Jets	NYJ	31
+11/27/2022	Houston Texans	HOU	15	Miami Dolphins	MIA	30
+11/27/2022	Atlanta Falcons	ATL	13	Washington Commanders	WAS	19
+11/27/2022	Denver Broncos	DEN	10	Carolina Panthers	CAR	23
+11/27/2022	Baltimore Ravens	BAL	27	Jacksonville Jaguars	JAX	28
+11/27/2022	Tampa Bay Buccaneers	TB	17	Cleveland Browns	CLE	23
+11/27/2022	Las Vegas Raiders	LV	40	Seattle Seahawks	SEA	34
+11/27/2022	Los Angeles Chargers	LAC	25	Arizona Cardinals	ARI	24
+11/27/2022	New Orleans Saints	NO	0	San Francisco 49ers	SF	13
+11/27/2022	Los Angeles Rams	LA	10	Kansas City Chiefs	KC	26
+11/27/2022	Green Bay Packers	GB	33	Philadelphia Eagles	PHI	40
+11/28/2022	Pittsburgh Steelers	PIT	24	Indianapolis Colts	IND	17
+12/01/2022	Buffalo Bills	BUF	24	New England Patriots	NE	10
+12/04/2022	New York Jets	NYJ	22	Minnesota Vikings	MIN	27
+12/04/2022	Cleveland Browns	CLE	27	Houston Texans	HOU	14
+12/04/2022	Green Bay Packers	GB	28	Chicago Bears	CHI	19
+12/04/2022	Denver Broncos	DEN	9	Baltimore Ravens	BAL	10
+12/04/2022	Jacksonville Jaguars	JAX	14	Detroit Lions	DET	40
+12/04/2022	Pittsburgh Steelers	PIT	19	Atlanta Falcons	ATL	16
+12/04/2022	Washington Commanders	WAS	20	New York Giants	NYG	20
+12/04/2022	Tennessee Titans	TEN	10	Philadelphia Eagles	PHI	35
+12/04/2022	Miami Dolphins	MIA	17	San Francisco 49ers	SF	33
+12/04/2022	Seattle Seahawks	SEA	27	Los Angeles Rams	LA	23
+12/04/2022	Los Angeles Chargers	LAC	20	Las Vegas Raiders	LV	27
+12/04/2022	Kansas City Chiefs	KC	24	Cincinnati Bengals	CIN	27
+12/04/2022	Indianapolis Colts	IND	19	Dallas Cowboys	DAL	54
+12/05/2022	New Orleans Saints	NO	16	Tampa Bay Buccaneers	TB	17
+12/08/2022	Las Vegas Raiders	LV	16	Los Angeles Rams	LA	17
+12/11/2022	Jacksonville Jaguars	JAX	36	Tennessee Titans	TEN	22
+12/11/2022	Houston Texans	HOU	23	Dallas Cowboys	DAL	27
+12/11/2022	New York Jets	NYJ	12	Buffalo Bills	BUF	20
+12/11/2022	Cleveland Browns	CLE	10	Cincinnati Bengals	CIN	23
+12/11/2022	Minnesota Vikings	MIN	23	Detroit Lions	DET	34
+12/11/2022	Philadelphia Eagles	PHI	48	New York Giants	NYG	22
+12/11/2022	Baltimore Ravens	BAL	16	Pittsburgh Steelers	PIT	14
+12/11/2022	Kansas City Chiefs	KC	34	Denver Broncos	DEN	28
+12/11/2022	Tampa Bay Buccaneers	TB	7	San Francisco 49ers	SF	35
+12/11/2022	Carolina Panthers	CAR	30	Seattle Seahawks	SEA	24
+12/11/2022	Miami Dolphins	MIA	17	Los Angeles Chargers	LAC	23
+12/12/2022	New England Patriots	NE	27	Arizona Cardinals	ARI	13
+12/15/2022	San Francisco 49ers	SF	21	Seattle Seahawks	SEA	13
+12/17/2022	Indianapolis Colts	IND	36	Minnesota Vikings	MIN	39
+12/17/2022	Baltimore Ravens	BAL	3	Cleveland Browns	CLE	13
+12/17/2022	Miami Dolphins	MIA	29	Buffalo Bills	BUF	32
+12/18/2022	Philadelphia Eagles	PHI	25	Chicago Bears	CHI	20
+12/18/2022	Kansas City Chiefs	KC	30	Houston Texans	HOU	24
+12/18/2022	Pittsburgh Steelers	PIT	24	Carolina Panthers	CAR	16
+12/18/2022	Dallas Cowboys	DAL	34	Jacksonville Jaguars	JAX	40
+12/18/2022	Detroit Lions	DET	20	New York Jets	NYJ	17
+12/18/2022	Atlanta Falcons	ATL	18	New Orleans Saints	NO	21
+12/18/2022	Arizona Cardinals	ARI	15	Denver Broncos	DEN	24
+12/18/2022	New England Patriots	NE	24	Las Vegas Raiders	LV	30
+12/18/2022	Tennessee Titans	TEN	14	Los Angeles Chargers	LAC	17
+12/18/2022	Cincinnati Bengals	CIN	34	Tampa Bay Buccaneers	TB	23
+12/18/2022	New York Giants	NYG	20	Washington Commanders	WAS	12
+12/19/2022	Los Angeles Rams	LA	12	Green Bay Packers	GB	24
+12/22/2022	Jacksonville Jaguars	JAX	19	New York Jets	NYJ	3
+12/24/2022	Buffalo Bills	BUF	35	Chicago Bears	CHI	13
+12/24/2022	Seattle Seahawks	SEA	10	Kansas City Chiefs	KC	24
+12/24/2022	New York Giants	NYG	24	Minnesota Vikings	MIN	27
+12/24/2022	Cincinnati Bengals	CIN	22	New England Patriots	NE	18
+12/24/2022	Atlanta Falcons	ATL	9	Baltimore Ravens	BAL	17
+12/24/2022	Detroit Lions	DET	23	Carolina Panthers	CAR	37
+12/24/2022	New Orleans Saints	NO	17	Cleveland Browns	CLE	10
+12/24/2022	Houston Texans	HOU	19	Tennessee Titans	TEN	14
+12/24/2022	Washington Commanders	WAS	20	San Francisco 49ers	SF	37
+12/24/2022	Philadelphia Eagles	PHI	34	Dallas Cowboys	DAL	40
+12/24/2022	Las Vegas Raiders	LV	10	Pittsburgh Steelers	PIT	13
+12/25/2022	Green Bay Packers	GB	26	Miami Dolphins	MIA	20
+12/25/2022	Denver Broncos	DEN	14	Los Angeles Rams	LA	51
+12/25/2022	Tampa Bay Buccaneers	TB	19	Arizona Cardinals	ARI	16
+12/26/2022	Los Angeles Chargers	LAC	20	Indianapolis Colts	IND	3
+12/29/2022	Dallas Cowboys	DAL	0	Tennessee Titans	TEN	0
+01/01/2023	Denver Broncos	DEN	0	Kansas City Chiefs	KC	0
+01/01/2023	Jacksonville Jaguars	JAX	0	Houston Texans	HOU	0
+01/01/2023	Carolina Panthers	CAR	0	Tampa Bay Buccaneers	TB	0
+01/01/2023	Cleveland Browns	CLE	0	Washington Commanders	WAS	0
+01/01/2023	Arizona Cardinals	ARI	0	Atlanta Falcons	ATL	0
+01/01/2023	Chicago Bears	CHI	0	Detroit Lions	DET	0
+01/01/2023	Miami Dolphins	MIA	0	New England Patriots	NE	0
+01/01/2023	Indianapolis Colts	IND	0	New York Giants	NYG	0
+01/01/2023	New Orleans Saints	NO	0	Philadelphia Eagles	PHI	0
+01/01/2023	San Francisco 49ers	SF	0	Las Vegas Raiders	LV	0
+01/01/2023	New York Jets	NYJ	0	Seattle Seahawks	SEA	0
+01/01/2023	Minnesota Vikings	MIN	0	Green Bay Packers	GB	0
+01/01/2023	Los Angeles Rams	LA	0	Los Angeles Chargers	LAC	0
+01/01/2023	Pittsburgh Steelers	PIT	0	Baltimore Ravens	BAL	0
+01/02/2023	Buffalo Bills	BUF	0	Cincinnati Bengals	CIN	0
+01/08/2023	Kansas City Chiefs	KC	0	Las Vegas Raiders	LV	0
+01/08/2023	Arizona Cardinals	ARI	0	San Francisco 49ers	SF	0
+01/08/2023	Los Angeles Rams	LA	0	Seattle Seahawks	SEA	0
+01/08/2023	Los Angeles Chargers	LAC	0	Denver Broncos	DEN	0
+01/08/2023	Detroit Lions	DET	0	Green Bay Packers	GB	0
+01/08/2023	Minnesota Vikings	MIN	0	Chicago Bears	CHI	0
+01/08/2023	Carolina Panthers	CAR	0	New Orleans Saints	NO	0
+01/08/2023	New York Giants	NYG	0	Philadelphia Eagles	PHI	0
+01/08/2023	Cleveland Browns	CLE	0	Pittsburgh Steelers	PIT	0
+01/08/2023	Dallas Cowboys	DAL	0	Washington Commanders	WAS	0
+01/08/2023	Tennessee Titans	TEN	0	Jacksonville Jaguars	JAX	0
+01/08/2023	Baltimore Ravens	BAL	0	Cincinnati Bengals	CIN	0
+01/08/2023	Tampa Bay Buccaneers	TB	0	Atlanta Falcons	ATL	0
+01/08/2023	New England Patriots	NE	0	Buffalo Bills	BUF	0
+01/08/2023	Houston Texans	HOU	0	Indianapolis Colts	IND	0
+01/08/2023	New York Jets	NYJ	0	Miami Dolphins	MIA	0

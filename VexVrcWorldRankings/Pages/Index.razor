@@ -1,0 +1,80 @@
+﻿@page "/"
+
+<PageTitle>VEX VRC Competition World Rankings </PageTitle>
+
+<h1>VEX VRC Competition World Rankings </h1>
+
+<p>This website contains world rankings for teams participating int 2022-2023 VEX VRC Robotics Spin-Up competition.</p>
+
+<p>
+    Teams are ranked based on their performance in tournaments throughout the year using a hybrid variation of ELO rating algorithm.
+</p>
+<p>The math behind the ELO rating system is explained in detail <a href="https://www.omnicalculator.com/sports/elo">here</a>.</p>
+<p>
+    Code implementations of the ELO rating system in various languages can be found
+    <a target="_blank" href="https://www.geeksforgeeks.org/elo-rating-algorithm/">here</a>.
+</p>
+<p>
+    While ELO is traditionally used for team verse team or player verse player competition,
+    the implementation here uses the combined ELO of each team on a VEX alliance to form a single ELO for each alliance .
+</p>
+<p>The combined ELO is they used to predict each alliances proability of winning the match.</p>
+<p>Then an elo rating change is calculuated for the combined ELO of each alliance based on their performance.</p>
+<p>Finally, the ELO for each team on the alliance is updated based on their percentage of the the combined ELO.</p>
+
+<p>
+    The data for teams and matches is pulled directly from the REC Foundations <a target="_blank" href="https://www.robotevents.com/api/v2">
+        Public Robot Events API
+    </a>.
+</p>
+<p>
+    This application was developed by members of Cherry Hill East High School robotics team in NJ, is open source and available on <a target="_blank" href="https://github.com/ajhiggins421">AJ Higgins Github</a>.
+</p>
+<p>
+    If you are interested in taking control and maintaing the project after this year please let us know. AJ is a senior and will likely not be continuing development, maintanence or hosting of this code after this year.
+</p>
+
+<h2>World Rankings</h2>
+<p>
+    The <a href="/rankings">World Rankings</a> page shows the latest world ranking for VEX VRC Robotics Competition teams. You can search for teams by Team Number, Name or Location.
+</p>
+<p><img src="images/world-rankings.png" title="VEX VRC Robotics Team World Rankings" /></p>
+
+<h2>Events</h2>
+<p>
+    The <a href="/events">events</a> page shows a list of events for the 2022-2023 VEX VRC Robotics Competition Spin-Up Season.
+</p>
+<p><img src="images/events.png" title="Events for the 2022-2023 VEX VRC Robotics Competition Spin-Up Season" /></p>
+
+<p>
+    You can browse through the events or search for events by name or sku.
+</p>
+<p><img src="images/wave-at-wpi-event.png" title="Event Teams for the 2022-2023 VEX VRC Robotics Competition Spin-Up Season" /></p>
+
+<h2>Event Details</h2>
+<p>Clicking on an event to view the event details which displays a list of teams for the event along with a list of matches for the event.</p>
+
+<h3>Event Details - Teams</h3>
+<p>On the top of the event details page is a searchable list of teams for the event, their ranking in the event, world ranking, elo and more. </p>
+<p><img src="images/wave-at-wpi-teams.png" title="Event Details for the 2022-2023 VEX VRC Robotics Competition Spin-Up Season" /></p>
+
+<h3>Event Details - Matches</h3>
+<p>Following the teams is a searchable list of matches listing the color-coded alliance for each match, combined team and invidiual elo for the alliance, the probability each team would win, and the result. </p>
+<p>
+    The corresponding blue win probality column or red win probality column is highlighted with it's respective color if that alliance was expected to win based on the alliance's combinded
+    elo.
+</p>
+<p>
+    The result column is bordered with the color of the alliance that was expected to win and highlighted with the team that actually won. This makes upset victories stick out, that is when a lower rated team defeated a higher rated team.
+</p>
+<p>When matches are first scheduled the result of the match will be a tie until the match is completed, but the win probablities of the match will still be visible.</p>
+<p><img src="images/wave-at-wpi-event-matches.png" title="Event Matches for the 2022-2023 VEX VRC Robotics Competition Spin-Up Season" /></p>
+
+<h2>Match Caculator</h2>
+<p>
+    The match caclulator allows you to enter two team codes for the blue alliance and two team codes for the red alliance and calculates the probality of each team winning in a match.
+</p>
+<p>After entering the teams for each alliance, the teams will be displayed along with their rankings and records in the Teams table and the match with probablity will be displayed in the matches table.</p>
+<p><img src="images/vex-vrc-robotics-match-calculator.png" title="Event Matches for the 2022-2023 VEX VRC Robotics Competition Spin-Up Season" /></p>
+
+<SurveyPrompt Title="How is this site working for you?" />

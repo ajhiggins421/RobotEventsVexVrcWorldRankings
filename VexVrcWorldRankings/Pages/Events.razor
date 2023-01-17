@@ -1,0 +1,43 @@
+﻿@page "/events"
+@using EloEngine.Vex.Api;
+
+<PageTitle>Events</PageTitle>
+<MudText Typo="Typo.h4">World VEX Competition Team Events - @Elements.Count Events</MudText>
+<MudTable Items="@Elements" Dense="@dense" Hover="@hover" Bordered="@bordered" Striped="@striped" 
+    Filter="new Func<Event, bool>(FilterFunc1)" @bind-SelectedItem="selectedItem1"
+        RowsPerPage="1000">
+    <ToolBarContent>
+        <MudText Typo="Typo.h6">Vex Events</MudText>
+        <MudSpacer />
+        <MudTextField @bind-Value="searchString1" Placeholder="Search" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
+    </ToolBarContent>
+    <HeaderContent>
+        <MudTh>Event Name</MudTh>
+        <MudTh>Location</MudTh>
+        <MudTh>Date</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Name">
+            <NavLink class="nav-link" href="@{"event/" + @context.Sku}">
+                @context.Name
+            </NavLink>
+        </MudTd>
+
+        <MudTd DataLabel="Location">@context.Location.City, @context.Location.Region, @context.Location.Country </MudTd>
+        <MudTd DataLabel="Date">@context.Start.DateTime.ToShortDateString()</MudTd>
+    </RowTemplate>
+    <PagerContent>
+        <MudTablePager PageSizeOptions="pageSizeOptions" />
+    </PagerContent>
+</MudTable>
+
+<div class="d-flex flex-wrap mt-4">
+    <MudSwitch @bind-Checked="@hover" Color="Color.Primary">Hover</MudSwitch>
+    <MudSwitch @bind-Checked="@dense" Color="Color.Secondary">Dense</MudSwitch>
+    <MudSwitch @bind-Checked="@striped" Color="Color.Tertiary">Striped</MudSwitch>
+    <MudSwitch @bind-Checked="@bordered" Color="Color.Warning">Bordered</MudSwitch>
+    <MudSpacer />
+    <div style="min-width:200px;">
+        <MudText Inline="true" Class="align-self-center">Selected1: @selectedItem1?.Name</MudText>
+    </div>
+</div>
