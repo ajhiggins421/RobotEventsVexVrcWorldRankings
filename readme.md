@@ -32,18 +32,18 @@ World Rankings
 
 The [World Rankings](/rankings) page shows the latest world ranking for VEX VRC Robotics Competition teams. You can search for teams by Team Number, Name or Location.
 
-![](../blob/master/EloWeb/wwwroot/images/world-rankings.png?raw=true "VEX VRC Robotics Team World Rankings")
+![](../master/VexVrcWorldRankings/wwwroot/images/world-rankings.png?raw=true "VEX VRC Robotics Team World Rankings")
 
 Events
 ------
 
 The [events](/events) page shows a list of events for the 2022-2023 VEX VRC Robotics Competition Spin-Up Season.
 
-![](../blob/master/EloWeb/wwwroot/images/events.png?raw=true "Events for the 2022-2023 VEX VRC Robotics Competition Spin-Up Season")
+![](../master/VexVrcWorldRankings/wwwroot/images/events.png?raw=true "Events for the 2022-2023 VEX VRC Robotics Competition Spin-Up Season")
 
 You can browse through the events or search for events by name or sku.
 
-![](../blob/master/EloWeb/wwwroot/images/wave-at-wpi-event.png?raw=true "Event Teams for the 2022-2023 VEX VRC Robotics Competition Spin-Up Season")
+![](../master/VexVrcWorldRankings/wwwroot/images/wave-at-wpi-event.png?raw=true "Event Teams for the 2022-2023 VEX VRC Robotics Competition Spin-Up Season")
 
 Event Details
 -------------
@@ -54,7 +54,7 @@ Clicking on an event to view the event details which displays a list of teams fo
 
 On the top of the event details page is a searchable list of teams for the event, their ranking in the event, world ranking, elo and more.
 
-![](../blob/master/EloWeb/wwwroot/images/wave-at-wpi-teams.png?raw=true "Event Details for the 2022-2023 VEX VRC Robotics Competition Spin-Up Season")
+![](../master/VexVrcWorldRankings/wwwroot/images/wave-at-wpi-teams.png?raw=true "Event Details for the 2022-2023 VEX VRC Robotics Competition Spin-Up Season")
 
 ### Event Details - Matches
 
@@ -66,7 +66,7 @@ The result column is bordered with the color of the alliance that was expected t
 
 When matches are first scheduled the result of the match will be a tie until the match is completed, but the win probablities of the match will still be visible.
 
-![](../blob/master/EloWeb/wwwroot/images/wave-at-wpi-event-matches.png?raw=true "Event Matches for the 2022-2023 VEX VRC Robotics Competition Spin-Up Season")
+![](../master/VexVrcWorldRankings/wwwroot/images/wave-at-wpi-event-matches.png?raw=true "Event Matches for the 2022-2023 VEX VRC Robotics Competition Spin-Up Season")
 
 Match Caculator
 ---------------
@@ -75,4 +75,4 @@ The match caclulator allows you to enter two team codes for the blue alliance an
 
 After entering the teams for each alliance, the teams will be displayed along with their rankings and records in the Teams table and the match with probablity will be displayed in the matches table.
 
-![](../blob/master/EloWeb/wwwroot/images/vex-vrc-robotics-match-calculator.png?raw=true "Event Matches for the 2022-2023 VEX VRC Robotics Competition Spin-Up Season")
+![](../master/VexVrcWorldRankings/wwwroot/images/vex-vrc-robotics-match-calculator.png?raw=true "Event Matches for the 2022-2023 VEX VRC Robotics Competition Spin-Up Season")
