@@ -1,3 +1,6 @@
+Copyright (C) 2023 - AJ Higgins
+See the end of the file for license conditions.
+
 VEX VRC Competition World Rankings
 ==================================
 
@@ -76,3 +79,16 @@ The match caclulator allows you to enter two team codes for the blue alliance an
 After entering the teams for each alliance, the teams will be displayed along with their rankings and records in the Teams table and the match with probablity will be displayed in the matches table.
 
 ![](../master/VexVrcWorldRankings/wwwroot/images/vex-vrc-robotics-match-calculator.png?raw=true "Event Matches for the 2022-2023 VEX VRC Robotics Competition Spin-Up Season")
+
+License
+---------------
+Copyright (C) 2023 AJ Higgins
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see https://www.gnu.org/licenses/.
+
+COPYING contains a copy of the full GPLv3 licensing conditions.
+
