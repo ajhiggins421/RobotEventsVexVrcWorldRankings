@@ -1,4 +1,5 @@
 Copyright (C) 2023 - AJ Higgins
+
 See the end of the file for license conditions.
 
 VEX VRC Competition World Rankings
@@ -90,5 +91,5 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 You should have received a copy of the GNU General Public License along with this program. If not, see https://www.gnu.org/licenses/.
 
-COPYING contains a copy of the full GPLv3 licensing conditions.
+[COPYING](COPYING) contains a copy of the full GPLv3 licensing conditions.
 
