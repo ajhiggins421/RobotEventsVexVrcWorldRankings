@@ -1,4 +1,4 @@
-Copyright (C) 2023 - AJ Higgins
+Copyright (C) 2023
 
 See the end of the file for license conditions.
 
@@ -83,7 +83,7 @@ After entering the teams for each alliance, the teams will be displayed along wi
 
 License
 ---------------
-Copyright (C) 2023 AJ Higgins
+Copyright (C) 2023
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
